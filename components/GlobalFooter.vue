@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div class="content"></div>
+    <div class="content">© 2020 たぼすけ</div>
   </footer>
 </template>
 
@@ -14,7 +14,10 @@ footer {
   color: var(--white);
 
   .content {
-    height: 1em;
+    width: var(--pc-content-width);
+    margin: 0 auto;
+    text-align: right;
+    line-height: 2;
   }
 }
 </style>

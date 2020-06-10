@@ -6,7 +6,7 @@
       </div>
       <nav class="navigation">
         <ul>
-          <li><nuxt-link to="/">BLOG</nuxt-link></li>
+          <li><nuxt-link to="/articles">BLOG</nuxt-link></li>
         </ul>
       </nav>
     </div>
