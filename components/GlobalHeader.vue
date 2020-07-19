@@ -2,11 +2,11 @@
   <header>
     <div class="content">
       <div class="logo">
-        <nuxt-link to="/">日記的ななにか</nuxt-link>
+        <nuxt-link to="/">tabo_syu note</nuxt-link>
       </div>
       <nav class="navigation">
         <ul>
-          <li><nuxt-link to="/articles">BLOG</nuxt-link></li>
+          <li><nuxt-link to="/articles">NOTES</nuxt-link></li>
         </ul>
       </nav>
     </div>
