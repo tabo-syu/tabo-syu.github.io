@@ -21,8 +21,11 @@ export default {
 
 <style lang="scss" scoped>
 main {
-  width: var(--pc-content-width);
+  max-width: var(--content-width);
   margin: 0 auto;
-  padding: var(--pc-content-pad-vertical) 0;
+  padding: var(--content-pad-vertical) 15px;
+  @media screen and (max-width: 767px) {
+    padding: 60px 15px var(--content-pad-vertical);
+  }
 }
 </style>

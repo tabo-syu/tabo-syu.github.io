@@ -26,13 +26,16 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: var(--pc-content-width);
+    max-width: var(--content-width);
     margin: 0 auto;
-    padding: 0.5rem 0;
+    padding: 0.5rem var(--content-pad-horizontal);
   }
 
   .logo {
     font-size: 2rem;
+    @media screen and (max-width: 767px) {
+      font-size: 1.3rem;
+    }
     a {
       color: var(--white);
       text-decoration: none;

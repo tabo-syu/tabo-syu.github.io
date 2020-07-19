@@ -14,8 +14,9 @@ footer {
   color: var(--white);
 
   .content {
-    width: var(--pc-content-width);
+    max-width: var(--content-width);
     margin: 0 auto;
+    padding: 0 var(--content-pad-horizontal);
     text-align: right;
     line-height: 2;
   }
