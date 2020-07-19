@@ -26,7 +26,6 @@ export default {
       const dd = ('00' + date.getDate()).slice(-2)
       return `${yyyy}/${mm}/${dd}`
     })
-    console.log(articles)
     return {
       articles,
       formatedCreatedAtList
