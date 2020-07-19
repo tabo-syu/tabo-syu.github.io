@@ -47,5 +47,12 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
+  },
+  content: {
+    markdown: {
+      prism: {
+        theme: 'prism-themes/themes/prism-a11y-dark.css'
+      }
+    }
   }
 }

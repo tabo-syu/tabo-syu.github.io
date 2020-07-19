@@ -67,3 +67,19 @@ grep するときだけ別のソフトを開くのもなんかバカバカしい
 
 ~~過去の作業に不備のあった可能性が...~~
 **絶望と仲良く**
+
+## コードテスト
+
+```js{1,3-5}[server.js]
+const http = require('http')
+const bodyParser = require('body-parser')
+
+// コメントアウト
+http
+  .createServer((req, res) => {
+    bodyParser.parse(req, (error, body) => {
+      res.end(body)
+    })
+  })
+  .listen(3000)
+```

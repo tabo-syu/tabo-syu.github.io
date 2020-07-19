@@ -37,4 +37,24 @@
   img {
     margin: 2.5rem auto;
   }
+
+  &-highlight {
+    position: relative;
+    font-size: 0.85rem;
+    .filename {
+      position: absolute;
+      margin-left: 1em;
+      padding: 0 0.3em;
+      background-color: var(--dark-blue);
+      font-family: consolas;
+      color: var(--white);
+    }
+    pre {
+      padding-top: 2.3em;
+    }
+    code {
+      font-family: consolas, 'Helvetica Neue', Arial,
+        'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+    }
+  }
 }
