@@ -11,6 +11,18 @@ export default {
     return {
       article
     }
+  },
+  head() {
+    if (!this.article.description) return
+    return {
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: `${this.article.description}`
+        }
+      ]
+    }
   }
 }
 </script>

@@ -30,6 +30,13 @@ export default {
       articles,
       formatedCreatedAtList
     }
+  },
+  head() {
+    return {
+      meta: [
+        { hid: 'description', name: 'description', content: '記事一覧ページ' }
+      ]
+    }
   }
 }
 </script>
