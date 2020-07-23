@@ -1,0 +1,9 @@
+{
+  "name": "Nuxt.js Workspace",
+  "dockerComposeFile": ["../docker-compose.yaml"],
+  "service": "app",
+  "workspaceFolder": "/app",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  }
+}
