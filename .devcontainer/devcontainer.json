@@ -5,5 +5,13 @@
   "workspaceFolder": "/app",
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
-  }
+},
+"extensions": [
+	"octref.vetur",
+	"editorconfig.editorconfig",
+	"yzhang.markdown-all-in-one",
+	"christian-kohler.path-intellisense",
+	"esbenp.prettier-vscode",
+	"dbaeumer.vscode-eslint"
+]
 }
