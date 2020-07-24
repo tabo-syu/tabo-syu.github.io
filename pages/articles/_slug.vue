@@ -19,7 +19,12 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: `${this.article.description}`
+          content: this.article.description
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.article.description
         }
       ]
     }

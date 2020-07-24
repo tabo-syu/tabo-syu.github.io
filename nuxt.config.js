@@ -15,6 +15,36 @@ export default {
         hid: 'description',
         name: 'description',
         content: '週一くらいでハマってる趣味、技術系の学びを更新したいブログ'
+      },
+      // og
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://bambshot.github.io'
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'tabo_syu note'
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: '週一くらいでハマってる趣味、技術系の学びを更新したいブログ'
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://bambshot.github.io/og_image.jpg'
+      },
+      // twitter card
+      {
+        name: 'twitter:site',
+        content: '@tabo_syu'
+      },
+      {
+        name: 'twitter:card',
+        content: 'summary'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }]

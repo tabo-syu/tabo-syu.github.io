@@ -31,10 +31,26 @@ export default {
       formatedCreatedAtList
     }
   },
+  data() {
+    return {
+      meta: {
+        description: '記事一覧ページ'
+      }
+    }
+  },
   head() {
     return {
       meta: [
-        { hid: 'description', name: 'description', content: '記事一覧ページ' }
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.meta.description
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.meta.description
+        }
       ]
     }
   }
