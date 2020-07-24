@@ -45,6 +45,10 @@ export default {
       {
         name: 'twitter:card',
         content: 'summary'
+      },
+      {
+        name: 'twitter:image',
+        content: 'https://bambshot.github.io/og_image.jpg'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }]
