@@ -18,8 +18,8 @@ jobs:
       - name: install nuxt
         run: yarn install
 
-      - name: generate
-        run: yarn generate
+      - name: export static files
+        run: yarn export
 
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
