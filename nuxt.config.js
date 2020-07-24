@@ -61,7 +61,12 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['modern-css-reset', '~/assets/variables.scss', '~/assets/common.scss'],
+  css: [
+    'modern-css-reset',
+    '~/assets/variables.scss',
+    '~/assets/common.scss',
+    '~assets/article'
+  ],
   /*
    ** Plugins to load before mounting the App
    */
