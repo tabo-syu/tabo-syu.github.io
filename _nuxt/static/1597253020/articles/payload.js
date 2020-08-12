@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/articles", {data:[{articles:[{title:"テレワーク開始から4か月経ったので、その間聴いてた曲をまとめてみる",path:"\u002Farticles\u002Ffavorite-songs",createdAt:"2020-08-12T17:22:44.217Z"}],formatedCreatedAtList:["2020\u002F08\u002F12"]}],fetch:[],mutations:void 0});
