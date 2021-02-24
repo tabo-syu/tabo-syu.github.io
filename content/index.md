@@ -27,7 +27,8 @@
 
 **音楽**
 
-- Future Bass
+- Future Bass, Future House
+  - [Aiobahn](https://aiobahn.net/)
   - [HoneyComeBear](https://www.honeycomebear.com/)
+  - [Kirara Magic](https://soundcloud.com/kiraramagic)
   - [Ujico\*/Snail's House](https://www.youtube.com/channel/UCYxBY8mhJ7R2rMIcQ28H_Zw)
-  - [YUC'e](https://yyucee.wixsite.com/yuce)
