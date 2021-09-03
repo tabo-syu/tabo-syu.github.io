@@ -5,7 +5,7 @@
         <ul>
           <li>
             <a
-              href="https://twitter.com/tabo_syu"
+              href="https://twitter.com/tabo_web"
               rel="nofollow,noopener,noreferrer"
               target="_blank"
               >Twitter</a
